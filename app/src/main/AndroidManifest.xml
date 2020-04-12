@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <manifest android:versionName="1.0" android:versionCode="1" package="com.alemdar.seyrusuluk" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-sdk android:targetSdkVersion="20" android:minSdkVersion="15"/>
+    <uses-feature android:name="android.hardware.touchscreen.multitouch"/>
+
+
+    <application android:theme="@style/AppTheme" android:label="@string/app_name" android:icon="@drawable/icoo" android:allowBackup="true">
+
+
+    <activity android:label="@string/app_name" android:name="com.mavi.maneviyolculuk.Main">
+
+
+    <intent-filter>
+
+    <action android:name="android.intent.action.MAIN"/>
+
+    <category android:name="android.intent.category.LAUNCHER"/>
+
+</intent-filter>
+
+</activity>
+
+    <activity android:label="@string/title_activity_author" android:name="com.mavi.maneviyolculuk.Author" android:parentActivityName="com.mavi.maneviyolculuk.Main"> </activity>
+
+    <activity android:label="@string/title_activity_items" android:name="com.mavi.maneviyolculuk.Items" android:parentActivityName="com.mavi.maneviyolculuk.Main"> </activity>
+
+    <activity android:label="@string/title_activity_sub_items" android:name="com.mavi.maneviyolculuk.SubItems" android:parentActivityName="com.mavi.maneviyolculuk.Items"> </activity>
+
+    <activity android:label="@string/title_activity_contents" android:name="com.mavi.maneviyolculuk.Contents"> </activity>
+
+</application>
+
+</manifest>

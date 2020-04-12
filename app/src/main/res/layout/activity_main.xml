@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    android:paddingBottom="0dp"
+    android:background="@drawable/back"
+    tools:context=".Main"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <Button
+            android:layout_width="175dp"
+            android:layout_height="50dp"
+            android:text="@string/author"
+            android:id="@+id/btn_author"
+            android:layout_gravity="bottom|right"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:layout_gravity="bottom"
+            android:layout_alignBaseline="@+id/btn_book_items"
+            android:layout_alignBottom="@+id/btn_book_items"
+            android:layout_toRightOf="@+id/btn_book_items"
+            android:layout_toLeftOf="@+id/btn_author"
+            android:layout_toStartOf="@+id/btn_author"
+            android:text=" " />
+
+        <Button
+            android:layout_width="175dp"
+            android:layout_height="50dp"
+            android:text="@string/book_items"
+            android:id="@+id/btn_book_items"
+            android:layout_gravity="bottom"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+    </RelativeLayout>
+
+</RelativeLayout>

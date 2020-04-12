@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Seyr-ü Sülûk | Manevi Yolculuk</string>
+    <string name="author">Müellif Hk.</string>
+    <string name="book_items">İçindekiler</string>
+    <string name="title_activity_book_items">İçindekiler</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_author">Ali Ramazan DİNÇ Hocaefendi</string>
+    <string name="action_settings">Settings</string>
+    <string name="fontsize13">Yazı boyutu: 13</string>
+    <string name="fontsize15">Yazı boyutu: 15</string>
+    <string name="fontsize17">Yazı boyutu: 17</string>
+    <string name="fontsize19">Yazı boyutu: 19</string>
+    <string name="fontsize21">Yazı boyutu: 21</string>
+    <string name="about_author">1955 yılında Yahyalı ’da doğdu. İlk öğrenimini Yahyalı ’da, orta öğrenimini Kayseri İmam Hatip Lisesi’nde, yüksek öğrenimini ise Erciyes Üniversitesi İlahiyat Fakültesi’nde ikmal etti. Çocukluğundan itibaren mânevî bir atmosferde yetişti. Hâl ehli insanlar kendisinin rûhi eğitimiyle özellikle ilgilendiler. Onların deyimiyle, bir gül fidanı gibi îtinayla yetiştirildi.  Kendileri çok küçük yaşta iken, kâbiliyetini keşfeden merhum Mahmud Sami Ramazanoğlu Hazretleri (ks)‘nin teveccühüne mazhar oldu. Talebelik yıllarından itibaren Fıkıh, Hadis, Tefsir ilimlerini özel hocalardan aldı. Böylece zâhiri ilimlerde kendini yetiştirerek sağlam ölçülerle donandı. “Fıkıhsız bir tasavvufun dinde sapmalara” yol açabileceğine inanmış, bu sebeple bid’atsiz bir tasavvufu savunmuştur.  Tasavvufu, “ Kulun vakt içinde, o vakte en uygun şeyle baş başa olması...” şeklinde anlamış, günümüz insanlarına en uygun olan şeyin akîde eğitimi olduğunu belirtmiş, takvayı; imandan İslam ’a, İslam ’dan ihsana çıkış olarak tanımlamıştır. Kafalar arınmadıkça kalplerin durulmayacağını ifade etmiş, bu münasebetle de daima ilkeli bir çalışma sergilemiştir. Zât-ı Âlîleri Türkiye’nin hemen her yerinde serî konferanslara katılmış olup bu sa’y u gayretini hâlen devam ettirmektedir. Ayrıca inceleme ve araştırma amacıyla Avrupa ve Afrika ülkele- ri ile Türk Cumhuriyetlerine giderek buralarda çeşitli konferans ve panellere iştirak etmiştir.  O’nun arzusu İslam toplumuna Yunus’un amaçladığı ölçü- lerde, “milimetrik” eğriliği bile bulunmayan insanlar yetiştirmektir. Kemâle Dâir Sohbetler, Kemâlat, Mânevî Yolculuğun Esasları, Yansımalar, Gönül Beytullahtır, Hakk’ı Seven Âşıklar isimli altı kitap çalışması daha bulunmaktadır.  Ali Ramazan Dinç Hoca Efendi’ye bu güzel gayretlerinden dolayı şükranlarımızı arz ederken, daha verimli çalışmalar için uzun ömürler vermesini Rabbimiz Teâlâ’dan niyaz ederiz.</string>
+    <string name="title_activity_book_item_details">Yazı Detayları</string>
+    <string name="title_activity_bookitem_details">Konu Detayları</string>
+    <string name="title_activity_items">İçindekiler</string>
+    <string name="title_activity_sub_items">SubItems</string>
+    <string name="title_activity_contents">Contents</string>
+
+</resources>
