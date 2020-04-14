@@ -5,7 +5,6 @@ import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.preference.PreferenceManager;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.text.Html;
 import android.view.Menu;
@@ -14,9 +13,10 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.widget.TextView;
 
-import com.alemdar.seyrusuluk.R;
+import androidx.appcompat.app.AppCompatActivity;
 
-public class Contents extends ActionBarActivity {
+
+public class Contents extends AppCompatActivity {
 
     String Category = "";
     private DB _db;

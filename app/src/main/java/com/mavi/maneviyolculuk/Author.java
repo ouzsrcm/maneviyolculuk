@@ -1,14 +1,13 @@
 package com.mavi.maneviyolculuk;
 
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import com.alemdar.seyrusuluk.R;
+import androidx.appcompat.app.AppCompatActivity;
 
 
-public class Author extends ActionBarActivity {
+public class Author extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

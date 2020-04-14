@@ -10,8 +10,6 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.widget.TextView;
 
-import com.alemdar.seyrusuluk.R;
-
 public class Icerik extends Activity {
 	private String htmlText;
 	AlertDialog levelDialog;

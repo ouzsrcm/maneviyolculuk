@@ -5,7 +5,6 @@ import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.preference.PreferenceManager;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -14,11 +13,11 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-import com.alemdar.seyrusuluk.R;
+import androidx.appcompat.app.AppCompatActivity;
 
 import java.io.IOException;
 
-public class SubItems extends ActionBarActivity {
+public class SubItems extends AppCompatActivity {
 
     public DB _db;
     public SQLiteDatabase _dbObj;

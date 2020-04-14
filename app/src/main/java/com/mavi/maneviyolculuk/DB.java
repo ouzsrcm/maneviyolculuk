@@ -38,7 +38,7 @@ public class DB extends SQLiteOpenHelper {
 
         if(dbExist){
             //do nothing - database already exist
-            //System.out.println("database varmis");
+            System.out.println("database varmis");
         }else{
             //System.out.println("database yokmus");
             //By calling this method and empty database will be created into the default system path
