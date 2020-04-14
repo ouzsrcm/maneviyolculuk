@@ -20,7 +20,7 @@ public class DB extends SQLiteOpenHelper {
     private static final String VERITABANI = "SeyruSuluk";
     private static final int VERSION = 1;
     private static String DB_PATH = "/data/data/com.mavi.maneviyolculuk/databases/";
-    private static String DB_NAME = "SeyruSuluk";
+    private static String DB_NAME = "SeyruSuluk.obj";
     private final Context myContext;
     private SQLiteDatabase myDataBase;
 
